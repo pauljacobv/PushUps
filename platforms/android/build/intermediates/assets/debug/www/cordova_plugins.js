@@ -3,11 +3,13 @@ module.exports = [
     {
         "file": "plugins/cordova-plugin-whitelist/whitelist.js",
         "id": "cordova-plugin-whitelist.whitelist",
+        "pluginId": "cordova-plugin-whitelist",
         "runs": true
     },
     {
         "file": "plugins/org.awokenwell.proximity/www/proximity.js",
         "id": "org.awokenwell.proximity.proximity",
+        "pluginId": "org.awokenwell.proximity",
         "clobbers": [
             "navigator.proximity"
         ]
@@ -15,6 +17,7 @@ module.exports = [
     {
         "file": "plugins/au.id.currie.tts/www/tts.js",
         "id": "au.id.currie.tts.TextToSpeech",
+        "pluginId": "au.id.currie.tts",
         "clobbers": [
             "window.texttospeech"
         ]
