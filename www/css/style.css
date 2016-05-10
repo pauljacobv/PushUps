@@ -1,0 +1,47 @@
+html{
+background-color:#66FF66;
+}
+
+#counter{
+visibility : visible;
+font-size:1300%;
+color:white;
+position:absolute;
+top:30%;
+left:35%}
+
+#start{
+position:absolute;
+visibility : visible;
+width:70%;
+height:10%;
+margin-left:12%;
+top:5%;
+color:white;
+background-color:#FF5050;
+font-size:150%;
+border:none;
+letter-spacing:20px;
+padding-left:35px;
+}
+
+#reset{
+position:absolute;
+visibility : hidden;
+width:70%;
+height:10%;
+margin-left:12%;
+top:5%;
+color:white;
+background-color:#FF5050;
+font-size:150%;
+border:none;
+letter-spacing:20px;
+padding-left:35px;
+}
+
+#loading{
+position:absolute;
+height:20%;
+left:33%;
+top:30%;}

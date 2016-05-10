@@ -1,0 +1,2 @@
+C:\Users\paul.jacob\Desktop\pushups\platforms\android\build\intermediates\classes\debug
+C:\Users\paul.jacob\Desktop\pushups\platforms\android\build\intermediates\pre-dexed\debug\classes-558758da7884262c852c9f6e3e02bd2cd7817237.jar

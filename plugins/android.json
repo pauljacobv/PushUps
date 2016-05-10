@@ -1,0 +1,40 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "res/xml/config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"Whitelist\"><param name=\"android-package\" value=\"org.apache.cordova.whitelist.WhitelistPlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Proximity\"><param name=\"android-package\" value=\"org.awokenwell.proximity.ProximitySensorListener\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"TextToSpeech\"><param name=\"android-package\" value=\"au.id.currie.tts.TextToSpeechPlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.proxy.pushups"
+        },
+        "org.awokenwell.proximity": {
+            "PACKAGE_NAME": "com.proxy.pushups"
+        },
+        "au.id.currie.tts": {
+            "PACKAGE_NAME": "com.proxy.pushups"
+        }
+    },
+    "dependent_plugins": {}
+}
